@@ -17,6 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
+    <java.version>11</java.version>
   </properties>
 
   <dependencies>
@@ -118,6 +119,15 @@
              </runtime>
              
             -->
+
+            <!-- App Settings -->
+            <appSettings>
+              <property>
+                    <name>JAVA_OPTS</name>
+                    <value>-Dserver.port=8080</value>
+              </property>
+           </appSettings>
+
             <!-- Deployment settings -->
              <deployment>
                <resources>
