@@ -1,5 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "appService.defaultWebAppToDeploy": "/subscriptions/cecea5c9-0754-4a7f-b5a9-46ae68dcafd3/resourceGroups/mi-test/providers/Microsoft.Web/sites/trniel-mi",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": "."
 }
