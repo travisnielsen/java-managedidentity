@@ -1,0 +1,2 @@
+# Create an application.properties file here
+azure.storage.account=[your_account_name]

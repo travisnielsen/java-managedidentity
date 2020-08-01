@@ -8,7 +8,7 @@
             "type": "java",
             "name": "Debug (Launch)-TestService",
             "request": "launch",
-            "mainClass": "mitest.TestService",
+            "mainClass": "com.contoso.demo.TestserviceApplication",
             "projectName": "demo"
         }
     ]
